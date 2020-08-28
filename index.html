@@ -50,7 +50,17 @@ limitations under the License.
 
 
 <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-<amp-analytics type="gtag" data-credentials="include">
+
+
+<!-- Adsense -->
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+
+
+</head>
+  <body>
+  <amp-analytics type="gtag" data-credentials="include">
 <script type="application/json">
 {
   "vars" : {
@@ -62,15 +72,6 @@ limitations under the License.
 }
 </script>
 </amp-analytics>
-
-<!-- Adsense -->
-<script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-</script>
-
-
-</head>
-  <body>
 
     <main id="content" role="main" class="">
       <article class="recipe-article">
